@@ -38,3 +38,5 @@ class AppointmentInsuranceInfo(models.Model):
     subscriberMemberId= models.CharField(max_length=200, default="default")
     frontImage = models.FileField(upload_to='insurance_docs/', null=True, blank=True) 
     backImage = models.FileField(upload_to='insurance_docs/', null=True, blank=True)
+
+
